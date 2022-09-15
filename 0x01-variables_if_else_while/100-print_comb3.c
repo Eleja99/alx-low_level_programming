@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	int c d;
+	int c, d;
 
 	for (c = 0; c <= 9; c++)
 	{
@@ -16,7 +16,7 @@ int main(void)
 	{
 		if (d > c)
 		{
-			putchar(c +'0');
+			putchar(c + '0');
 			putchar(d + '0');
 			if (c != 8)
 			{
